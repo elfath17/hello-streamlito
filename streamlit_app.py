@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 from PIL import Image
 from data_cleaning import load_data, clean_data
 from eda import get_transaction_counts, get_delivery_time, get_repeat_customers, get_new_customers_by_month, get_seller_performance, get_top_bottom_categories, get_correlations
